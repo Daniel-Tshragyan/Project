@@ -40,7 +40,7 @@ function App() {
     <div className="myList">
     <AddToList Adding={AddItems}/>
     {TodoLists.length ? <List MyList={TodoLists} Changing={Changed} Remove={RemoveItemm} />: <p align="center">Nothing Todo</p>}
-       
+            
     </div>
   );
 }
